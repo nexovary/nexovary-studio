@@ -1,0 +1,18 @@
+<svg width="720" height="520" viewBox="0 0 720 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="520" fill="#F4F9FF"/>
+  <rect x="40" y="38" width="640" height="444" stroke="#BBD4F1" stroke-width="2" fill="#FFFFFF"/>
+  <rect x="70" y="74" width="220" height="34" fill="#E8F2FF" stroke="#BBD4F1"/>
+  <rect x="308" y="74" width="160" height="34" fill="#F3FAFF" stroke="#BBD4F1"/>
+  <rect x="488" y="74" width="160" height="34" fill="#F3FAFF" stroke="#BBD4F1"/>
+  <rect x="70" y="130" width="260" height="150" fill="#FAFCFF" stroke="#C6DAF2"/>
+  <polyline points="88,240 132,208 178,220 223,176 267,192 312,156" stroke="#1177FF" stroke-width="3" fill="none"/>
+  <rect x="350" y="130" width="298" height="70" fill="#FAFCFF" stroke="#C6DAF2"/>
+  <rect x="350" y="220" width="298" height="60" fill="#FAFCFF" stroke="#C6DAF2"/>
+  <rect x="70" y="304" width="578" height="146" fill="#FCFEFF" stroke="#C6DAF2"/>
+  <rect x="96" y="334" width="178" height="86" fill="#EAF4FF" stroke="#BBD4F1"/>
+  <rect x="292" y="334" width="178" height="86" fill="#EAFBFF" stroke="#BBD4F1"/>
+  <rect x="488" y="334" width="132" height="86" fill="#EAF4FF" stroke="#BBD4F1"/>
+  <line x1="70" y1="304" x2="648" y2="304" stroke="#BBD4F1"/>
+  <circle cx="612" cy="92" r="8" fill="#18C6E0"/>
+  <circle cx="588" cy="92" r="8" fill="#1177FF"/>
+</svg>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="nexovary — веб-студия для разработки быстрых и современных сайтов под задачи бизнеса.">
+  <title>nexovary — веб-студия</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="nexovary, перейти к началу">nexovary</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Основная навигация">
+        <a href="#services">Услуги</a>
+        <a href="#process">Процесс</a>
+        <a href="#advantages">Преимущества</a>
+        <a href="#cases">Кейсы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="section-label">Цифровая разработка для бизнеса</p>
+          <h1>Создаём строгие и быстрые сайты, которые работают на продажи</h1>
+          <p class="hero__subtitle">nexovary проектирует интерфейсы, верстает адаптивные страницы и настраивает логику так, чтобы сайт выглядел технологично и приносил результат уже в первые недели.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contacts">Обсудить проект</a>
+            <a class="btn btn--ghost" href="#cases">Смотреть кейсы</a>
+          </div>
+          <ul class="hero__points">
+            <li>Запуск MVP от 10 рабочих дней</li>
+            <li>Чистый код и высокая скорость загрузки</li>
+            <li>Фокус на конверсию и удобство пользователя</li>
+          </ul>
+        </div>
+        <div class="hero__media">
+          <img src="img/layout/hero-ui.svg" alt="Интерфейс панели аналитики и структуры сайта">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <p class="section-label">Услуги</p>
+        <h2>Что мы делаем</h2>
+        <div class="services-grid">
+          <article class="card service-card">
+            <img src="img/icons/service-1.svg" alt="Иконка проектирования интерфейса" class="service-card__icon">
+            <h3>Дизайн и прототипирование</h3>
+            <p>Прорабатываем структуру и визуальный стиль, чтобы продукт сразу выглядел профессионально.</p>
+            <ul>
+              <li>Карта пользовательских сценариев</li>
+              <li>Прототипы ключевых экранов</li>
+              <li>UI-кит для дальнейшего роста</li>
+            </ul>
+            <p class="price">от 70 000 ₽</p>
+          </article>
+          <article class="card service-card">
+            <img src="img/icons/service-2.svg" alt="Иконка фронтенд-разработки" class="service-card__icon">
+            <h3>Frontend-разработка</h3>
+            <p>Собираем адаптивные страницы и интерфейсы с чистой архитектурой и понятной поддержкой.</p>
+            <ul>
+              <li>Семантическая HTML-структура</li>
+              <li>Адаптивная вёрстка под все экраны</li>
+              <li>Оптимизация скорости загрузки</li>
+            </ul>
+            <p class="price">от 95 000 ₽</p>
+          </article>
+          <article class="card service-card">
+            <img src="img/icons/service-3.svg" alt="Иконка интеграции и запуска" class="service-card__icon">
+            <h3>Интеграция и запуск</h3>
+            <p>Подключаем формы, аналитику, CRM и готовим проект к стабильной работе после релиза.</p>
+            <ul>
+              <li>Подключение заявок и трекинга</li>
+              <li>Базовое SEO и мета-структура</li>
+              <li>Техническая поддержка после старта</li>
+            </ul>
+            <p class="price">от 55 000 ₽</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="process">
+      <div class="container">
+        <p class="section-label">Процесс</p>
+        <h2>Как строится работа</h2>
+        <div class="process-grid">
+          <article class="card step-card"><span>01</span><h3>Бриф и цели</h3><p>Фиксируем задачи, аудиторию и метрики, чтобы проект имел измеримый результат.</p></article>
+          <article class="card step-card"><span>02</span><h3>Прототип и дизайн</h3><p>Согласуем каркас, стиль и приоритетные блоки для уверенного старта разработки.</p></article>
+          <article class="card step-card"><span>03</span><h3>Разработка</h3><p>Реализуем адаптивный фронтенд, подключаем функционал и проводим техническую проверку.</p></article>
+          <article class="card step-card"><span>04</span><h3>Запуск и развитие</h3><p>Выводим сайт в продакшн, отслеживаем показатели и улучшаем конверсионные сценарии.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="advantages">
+      <div class="container">
+        <p class="section-label">Преимущества</p>
+        <h2>Почему команды выбирают nexovary</h2>
+        <div class="advantages-grid">
+          <article class="card"><h3>Системный подход</h3><p>Каждое решение связываем с бизнес-целью, а не с визуалом ради визуала.</p></article>
+          <article class="card"><h3>Прозрачные этапы</h3><p>План, сроки и статусы задач понятны на каждом шаге без лишней бюрократии.</p></article>
+          <article class="card"><h3>Техническая аккуратность</h3><p>Чистая структура файлов, понятные стили и логика для удобной поддержки.</p></article>
+          <article class="card"><h3>Ориентация на рост</h3><p>Закладываем основу, которую легко масштабировать под новые задачи и каналы.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cases">
+      <div class="container">
+        <p class="section-label">Кейсы</p>
+        <h2>Примеры реализованных решений</h2>
+        <div class="cases-grid">
+          <article class="card case-card">
+            <img src="img/layout/case-1.svg" alt="Кейс корпоративного сайта для B2B-компании">
+            <h3>Корпоративный сайт для B2B</h3>
+            <p>Собрали строгий лендинг с каталогом услуг и повысили долю целевых заявок на 38% за квартал.</p>
+          </article>
+          <article class="card case-card">
+            <img src="img/layout/case-2.svg" alt="Кейс посадочной страницы для IT-сервиса">
+            <h3>Лендинг для IT-сервиса</h3>
+            <p>Разработали интерфейс с акцентом на демонстрацию продукта и уменьшили стоимость лида на 24%.</p>
+          </article>
+          <article class="card case-card">
+            <img src="img/layout/case-3.svg" alt="Кейс промо-сайта для запуска нового продукта">
+            <h3>Промо-сайт запуска</h3>
+            <p>Подготовили быстрый одностраничный сайт для релиза и получили 1200+ регистраций за первую неделю.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container">
+        <p class="section-label">FAQ</p>
+        <h2>Частые вопросы</h2>
+        <div class="faq-list">
+          <details class="card">
+            <summary>Сколько времени занимает разработка?</summary>
+            <p>Типовой лендинг занимает от 2 до 4 недель. Более сложные проекты с интеграциями — от 5 недель в зависимости от объема задач.</p>
+          </details>
+          <details class="card">
+            <summary>Можно ли подключить ваш проект к нашей CRM?</summary>
+            <p>Да, мы интегрируем формы с популярными CRM и мессенджерами, а также настраиваем события для аналитики и рекламы.</p>
+          </details>
+          <details class="card">
+            <summary>Работаете ли вы после запуска сайта?</summary>
+            <p>Да, мы сопровождаем релиз, устраняем замечания и предлагаем пакет развития с ежемесячными улучшениями.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacts">
+      <div class="container contact-grid">
+        <div>
+          <p class="section-label">Контакты</p>
+          <h2>Обсудим ваш проект</h2>
+          <p class="contact-text">Опишите задачу в свободной форме: ниша, сроки, приоритеты. Мы вернёмся с предложением по этапам и оценкой стоимости в течение рабочего дня.</p>
+        </div>
+        <form class="contact-form card" novalidate>
+          <label for="name">Имя</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="contact">Контакт (телефон или Telegram)</label>
+          <input id="contact" name="contact" type="text" required>
+
+          <label for="message">Сообщение</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="btn btn--primary">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 nexovary. Все права защищены.</p>
+      <p>Веб-студия для компаний, которым нужен точный и современный цифровой продукт.</p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
